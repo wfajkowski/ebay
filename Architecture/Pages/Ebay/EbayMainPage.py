@@ -1,5 +1,6 @@
 from Architecture.Pages.BasePage import BasePage
 from Architecture.Pages.Ebay.EbayMainPageObjects import EbayMainPageObjects
+import time
 
 class EbayMainPage(BasePage):
     def clickSignInLink(self):
@@ -11,3 +12,8 @@ class EbayMainPage(BasePage):
     def getLoggedUser(self):
         messageText = self.driver.find_element(*EbayMainPageObjects.LoggedUserText).text
         return messageText
+
+    def goToCategory(self):
+        from Architecture.Pages.Motors.Motors import Motors
+        self.driver.find_element(*EbayMainPageObjects.CategoryMotors).click()
+        return Motors(self.driver)
