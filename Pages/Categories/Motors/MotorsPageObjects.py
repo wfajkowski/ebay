@@ -1,0 +1,2 @@
+class MotorsPageObjects(object):
+    pass

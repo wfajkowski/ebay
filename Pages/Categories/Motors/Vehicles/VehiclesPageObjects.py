@@ -1,0 +1,2 @@
+class VehiclePageObjects(object):
+    pass

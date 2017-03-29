@@ -1,0 +1,2 @@
+class FashionPageObjects(object):
+    pass

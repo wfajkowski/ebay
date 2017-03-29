@@ -1,0 +1,2 @@
+class MainLoginPageObjects(object):
+    pass
