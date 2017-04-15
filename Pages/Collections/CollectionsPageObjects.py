@@ -1,2 +1,0 @@
-class CollectionsPageObjects(object):
-    pass

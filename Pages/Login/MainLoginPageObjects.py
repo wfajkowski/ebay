@@ -1,2 +1,0 @@
-class MainLoginPageObjects(object):
-    pass

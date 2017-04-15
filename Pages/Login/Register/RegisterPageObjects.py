@@ -1,2 +1,0 @@
-class RegisterPageObjects(object):
-    pass
